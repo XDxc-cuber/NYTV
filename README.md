@@ -19,7 +19,7 @@
 
 ```
 NYTV-main/
-├── App/
+├── Frontend/
 │   ├── app.py                        # 主程序
 │   ├── static/
 │   │   ├── hot_streets.csv           # 热点街道数据
@@ -601,6 +601,9 @@ def download_hot_streets():
     * 由于时间跨度过大（2000.01.01——2024.06.11），原始数据共计117085条，筛选最后20000条数据用于训练和预测。数据维度：$(20000,507,1)$
   * 12个月流量预测
     * 数据维度：$(197,507,1)$
+
+## 成果展示视频
+https://www.bilibili.com/video/BV1bWCjYCEwW/?spm_id_from=333.1387.list.card_archive.click&vd_source=02416bf1c49b8accdba4a053a9d5ac94
 
 ## 团队成员分工
 
